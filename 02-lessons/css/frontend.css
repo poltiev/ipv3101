@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: red;
+}
+/* Текст коментария  */
+h3 {
+    text-align: right;
+    font-size: 3em;
+}
+p {
+    font-size: 1.2em;
+}
+span {
+    font-size: 1.2rem;
+    color: blue;
+    text-decoration: underline;
+}
+h2.small {
+    font-size: 1.1em;
+}
+.small {
+    font-size: 0.8em;
+    font-style: italic;
+}
+#vasya {
+    color: red;
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+    font-style: normal;
+}
+h1 b > i {
+    text-transform: uppercase;
+    font-style: normal;
+    color: #000;
+}
+b > i {
+    color: purple;
+}
+i b {
+    color: green;
+}
