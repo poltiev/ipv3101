@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.colors {
+    list-style: url(../img/list.jpg);
+}
+
+.colors li:nth-of-type(2n) {
+    background-color: red;
+}
+.menu {
+    list-style: upper-roman;
+}
+.menu > li > ol {
+    list-style: lower-alpha;
+}
+.menu ol ol {
+    list-style-type: circle;
+}
