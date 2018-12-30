@@ -1,11 +1,17 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,400i,700,700i&subset=cyrillic');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .colors {
     list-style: url(../img/list.jpg);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .colors li:nth-of-type(2n) {
     background-color: red;
+    font-weight: 700;
 }
 .menu {
     list-style: upper-roman;
