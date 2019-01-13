@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700,700i&subset=cyrillic');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    line-height: 1.44em;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+.row {
+    margin: 0 -10px;
+}
+.big-zag {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 18px;
+    line-height: 1.44em;
+    padding: 6px 0;
+}
+.light-zag {
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.44em;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.razdel {
+    text-align: center;
+    margin-top: 50px;
+}
+.razdel a {
+    margin: 0 10px;
+}
+.bg-gray {
+    background-color: #333;
+}
+.bg-red {
+    background-color: #D90000;
+}
+.cat-models {
+
+}
+.cat-models a {
+    width: 180px;
+    display: inline-block;
+    margin: 0 9px 0 10px;
+}
+.cat-models a img {
+    width: 100%;
+}
