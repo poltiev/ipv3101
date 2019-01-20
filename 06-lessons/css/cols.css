@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+    margin:0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container::after,
+.container::before,
+.clear::after,
+.clear::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 1px solid green;
+}
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.cols-1 div, .cols-2 div, .cols-3 div, .cols-4 div, .cols-5 div,
+.cols-6 div, .cols-7 div{
+    border: 1px solid red;
+}
+.row .cols-1, .row .cols-2, .row .cols-3, .row .cols-4, .row .cols-5,
+.row .cols-6, .row .cols-7 {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cols-1 {
+    width: 8.33%;
+}
+.cols-2 {
+    width: 16.66%;
+}
+.cols-3 {
+    width: 25%;
+}
+.cols-4 {
+    width: 33.33%;
+}
+.cols-5 {
+    width: 41.66%;
+}
+.cols-6 {
+    width: 50%;
+}
+.cols-7 {
+    width: 58.33%;
+}

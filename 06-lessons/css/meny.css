@@ -1,0 +1,64 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #adaaae;
+}
+ul::after, nav::after, .container::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+ul::before, nav::before, .container::before {
+    content: ' ';
+    display: table;
+}
+.container {
+    width: 980px;
+    margin: auto;
+    background: white;
+}
+.main-menu {
+    background-color: #333333;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu > ul > li {
+    float: left;
+    position: relative;
+}
+.main-menu > ul >li > ul {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background-color: #9a27ff;
+    transition: opacity 1s;
+}
+.main-menu > ul >li:hover > ul {
+    z-index: 1;
+    opacity: 1;
+}
+.main-menu > ul >li > ul a {
+    white-space: nowrap;
+}
+.main-menu a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+.main-menu a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+h2::after {
+    content: 'Привет';
+    display: inline-block;
+}
+
+h2::before {}
