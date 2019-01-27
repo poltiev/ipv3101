@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid red;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /*align-content: flex-start;*/
+    /*flex-wrap: wrap;*/
+}
+.menu li {
+    border: 1px solid gray;
+    flex-basis: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 1;
+}
+.menu .two {
+    align-self: flex-start;
+    order: 2;
+}
