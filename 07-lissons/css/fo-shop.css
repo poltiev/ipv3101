@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.light-gray {
+    background-color: #C4C4C4;
+}
+.middle-gray {
+    background-color: #868686;
+}
+.dark-gray {
+    background-color: #474747;
+}
+.main-header > .cols {
+    height: 222px;
+
+}
+.shop-card-img img {
+    width: 100%;
+}
