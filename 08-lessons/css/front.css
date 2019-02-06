@@ -115,6 +115,7 @@ body {
     .buter {
         display: none;
     }
+
     .main-menu, .main-menu.active {
         position: static;
         display: flex !important;
