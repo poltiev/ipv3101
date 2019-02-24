@@ -1,0 +1,30 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+}
+.my-slider {
+    width: 900px;
+    margin: 0 auto;
+}
+.slider-inner {
+    width: 900px;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+}
+.slider-inner img {
+    width: 100%;
+    vertical-align: top;
+}
+.my-caption {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

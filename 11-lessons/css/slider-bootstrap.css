@@ -1,0 +1,7 @@
+
+.carousel-caption {
+    top: 20px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
